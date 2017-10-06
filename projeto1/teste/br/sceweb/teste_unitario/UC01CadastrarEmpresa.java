@@ -35,6 +35,10 @@ public class UC01CadastrarEmpresa {
 		assertEquals(1,empresaDAO.adiciona(empresa));
 	}
 	
+	/**
+	 * CT02UC01FBCadastra_com_CNPJ_Invalido
+	 * Verificar o comportamento do sistema para cadastro com CNPJ Invalido
+	 */
 	@Ignore
 	@Test
 	public void CT02UC01FBCadastra_com_CNPJ_Invalido() {
